@@ -1,0 +1,1 @@
+{"914568c3510f948e5cee5aca84dfb5b8:f9973aa53c0203ba132bde5c3781d64d":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"7de1e691cdb339ab","status":"failed","statusDetails":"Error: The button 'Accept All Cookies' isn't visible","time":{"start":1720125152292,"stop":1720125219435,"duration":67143}}]}}

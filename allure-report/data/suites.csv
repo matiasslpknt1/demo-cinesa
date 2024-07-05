@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 04 17:32:32 ART 2024","Thu Jul 04 17:33:39 ART 2024","67143","Chrome","register.spec.ts","Register Test","","","Register user test",""
