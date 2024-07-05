@@ -1,8 +1,10 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="70.64720200000001">
-<testsuite name="register.spec.ts" timestamp="2024-07-04T20:32:30.901Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="67.146" errors="0">
-<testcase name="Register Test › Register user test" classname="register.spec.ts" time="67.146">
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="39.05095899999999">
+<testsuite name="register.spec.ts" timestamp="2024-07-05T15:00:12.509Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="35.006" errors="0">
+<testcase name="Register Test › Register user test" classname="register.spec.ts" time="35.006">
 <failure message="register.spec.ts:6:9 Register user test" type="FAILURE">
 <![CDATA[  [Chrome] › register.spec.ts:6:9 › Register Test › Register user test › The user go to the home page 
+
+    Test timeout of 30000ms exceeded.
 
     Error: The button 'Accept All Cookies' isn't visible
 
@@ -49,6 +51,18 @@
 [[ATTACHMENT|test-results/register-Register-Test-Register-user-test-Chrome/trace.zip]]
 ]]>
 </system-out>
+</testcase>
+</testsuite>
+<testsuite name="register.spec.ts" timestamp="2024-07-05T15:00:12.509Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="27.082" errors="0">
+<testcase name="Register Test › Register user test" classname="register.spec.ts" time="27.082">
+</testcase>
+</testsuite>
+<testsuite name="register.spec.ts" timestamp="2024-07-05T15:00:12.509Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="27.435" errors="0">
+<testcase name="Register Test › Register user test" classname="register.spec.ts" time="27.435">
+</testcase>
+</testsuite>
+<testsuite name="register.spec.ts" timestamp="2024-07-05T15:00:12.509Z" hostname="Mobile Safari" tests="1" failures="0" skipped="0" time="25.14" errors="0">
+<testcase name="Register Test › Register user test" classname="register.spec.ts" time="25.14">
 </testcase>
 </testsuite>
 </testsuites>

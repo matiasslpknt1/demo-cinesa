@@ -30,6 +30,9 @@ export class HomePage extends HomePageObjects{
      * @param text
      */
     async clickOnTheMenuByText(text:string){
+        if(await this.page.locator(HomePage.BURGER_CONTAINER).isVisible()){
+            await webActions.clickElement(HomePage.BURGER_CONTAINER, util.format("The button called '%s' isn't visible", text));
+        }
         await webActions.clickElement(HomePage.getSpanByText(text), util.format("The button called '%s' isn't visible", text));
     }
 }

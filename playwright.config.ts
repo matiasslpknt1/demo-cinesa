@@ -2,9 +2,8 @@ import { PlaywrightTestConfig, devices } from '@playwright/test';
 import { testConfig } from '@testConfig';
 
 const ENVIRONMENT = process.env.ENVIRONMENT;
-let storageState = '';
 /** environment */
-if (!ENVIRONMENT || !['dfe', 'ppe', 'pe'].includes(ENVIRONMENT)) {
+if (!ENVIRONMENT || !['ppe', 'pe'].includes(ENVIRONMENT)) {
 	console.log(
 		'Please provide a correct environment value like "ENVIRONMENT=dfe|ppe|pe"'
 	);
@@ -65,7 +64,7 @@ const config: PlaywrightTestConfig ={
         },
       },
     },
-    /*{
+    {
       name: "Firefox",
       use: {
         baseURL: testConfig[process.env.ENVIRONMENT],
@@ -82,7 +81,7 @@ const config: PlaywrightTestConfig ={
         },
       },
     },
-    /*{
+    {
       name: 'Mobile Chrome',
       use: { 
         ...devices['Pixel 5'],
